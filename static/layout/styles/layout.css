@@ -263,7 +263,7 @@ td{border-width:0 1px;}
 .faico li:last-child{margin-right:0;}
 .faico a{display:inline-block; width:36px; height:36px; line-height:36px; font-size:18px; text-align:center;}
 
-.faico a{color:#FFFFFF; background-color:#012B50;}
+.faico a{color:#FFFFFF; background-color:black;}
 .faico a:hover{}
 
 .faicon-dribble:hover{background-color:#EA4C89;}
@@ -283,17 +283,17 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#DFDFDF; background-color:#1A1A1A;}
+body{color:#DFDFDF; background-color:Black;}
 a{color:#FD8866;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
-label span{color:#FF0000; background-color:inherit;}
+label span{color:#FF0000; background-color:black;}
 input:focus, textarea:focus, *:required:focus{border-color:#FD8866;}
 
-.overlay{color:#FFFFFF; background-color:inherit;}
+.overlay{color:black; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 .overlay.light{color:#474747;}
-.overlay.light::after{background-color:rgba(255,255,255,.7);}
+.overlay.light::after{background-color:black;}
 
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#FD8866; border-color:#FD8866;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
@@ -351,7 +351,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#FD8866;}
 
 
 /* Footer */
-#footer .heading{color:#FFFFFF;}
+#footer .heading{color:white;}
 #footer hr, #footer .borderedbox, #footer .linklist li{border-color:rgba(255,255,255,.1);}
 
 #footer input, #footer button{border-color:transparent;}
